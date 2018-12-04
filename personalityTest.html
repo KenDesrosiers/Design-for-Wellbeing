@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script src="https://download.affectiva.com/js/3.2/affdex.js"></script>
+        <script src="imageVisibility.js"></script>
+        <script src="runTheGame.js"></script>
+        <link rel="stylesheet" type="text/css" href="testStyle.css">
+        <style>#Emotion {font-size:0.5em;} #video {display:none;}</style>
+    </head>
+    <div id='video'></div>
+    <div id = 'Emotion'></div>
+        <body>
+            <div class = "dialogue">
+                <div id = "first">Welcome!</div>
+                <div id = "second">Today you're going to discover your true personality!</div>
+                <div id = "third">Are you ready?</div>
+                <div id = "instructions">
+                    We will show you four pictures.
+                </div>
+                <div id="hi"></div>
+                <div id = "instructions2">
+                    Then we'll show them to you one at a time.
+                </div>
+                <div id = "instructions3">
+                    Briefly smile at the one you think best suits you.
+                </div>
+                <div id = "set" style="display: none">
+                    <img id="pic" src="https://lh6.googleusercontent.com/uLbkriRhRABFXdCVzmRTN-Bt8u8wUZPjNYwTY9M-4GjSP060aWEe7_XHWUB0au7Wt1O23C0ik379XgJTPJVTtMz2XpHxjyV8cQ6FuO6i8F8Rc9WJvhb1vY92f4WPIcUidzg0IRVy"/>
+                    <img id="pic" src="https://lh4.googleusercontent.com/dgDRoQPirNtsfDIDp5htsxXJbb8DFUOPzOwZY0yksF-u68qqNoFM33LMG8X-3rkRa1c35w1hli4ZtC3GVHPj6xrMK0WNI57TmYTMBYFxtZoeUTlQgP1HPv6F9wkRpiQuZ5w0mnr_ "/>
+                    <img id="pic" src="https://lh5.googleusercontent.com/DIdwGiAHTFtpABNopJ7yV8bmBy8hN0Yl82C5Iwh4RdxXqwMp4HyEYX9FKRHkipliUiq3AuEaXsrsUs2JremQWfXOaCS6gxUkLqN6FhifVPO77VsJMObosm5MykEvMdXxGKPunlGO"/>
+                    <img id="pic" src="https://lh3.googleusercontent.com/A7oqUhS6hGs273YQXcULAsZYmcjoZpxZ-Hfm_nGrpt-h-agB7gPEY0FQNTlUHgum7PKZXWkBk8Xr_iFD-dW8Wlayve3Dempkne0muKhClPCop-bbecSaglOKEyT9CuY61NW_6ZPJ"/>
+                </div>
+                <img id="set1pic1" src="https://lh6.googleusercontent.com/uLbkriRhRABFXdCVzmRTN-Bt8u8wUZPjNYwTY9M-4GjSP060aWEe7_XHWUB0au7Wt1O23C0ik379XgJTPJVTtMz2XpHxjyV8cQ6FuO6i8F8Rc9WJvhb1vY92f4WPIcUidzg0IRVy" style="display: none;"/>
+                <img id="set1pic2" src="https://lh4.googleusercontent.com/dgDRoQPirNtsfDIDp5htsxXJbb8DFUOPzOwZY0yksF-u68qqNoFM33LMG8X-3rkRa1c35w1hli4ZtC3GVHPj6xrMK0WNI57TmYTMBYFxtZoeUTlQgP1HPv6F9wkRpiQuZ5w0mnr_ " style="display: none;"/>
+                <img id="set1pic3" src="https://lh5.googleusercontent.com/DIdwGiAHTFtpABNopJ7yV8bmBy8hN0Yl82C5Iwh4RdxXqwMp4HyEYX9FKRHkipliUiq3AuEaXsrsUs2JremQWfXOaCS6gxUkLqN6FhifVPO77VsJMObosm5MykEvMdXxGKPunlGO" style="display: none;"/>
+                <img id="set1pic4" src="https://lh3.googleusercontent.com/A7oqUhS6hGs273YQXcULAsZYmcjoZpxZ-Hfm_nGrpt-h-agB7gPEY0FQNTlUHgum7PKZXWkBk8Xr_iFD-dW8Wlayve3Dempkne0muKhClPCop-bbecSaglOKEyT9CuY61NW_6ZPJ" style="display: none;"/>
+            </div>
+            <div id = "finalInstructions">
+                Analyzing to see which one you chose........
+            </div>
+            <div id="finalOptions"></div>
+            <div id="winner"></div>
+        </body>
+        </html>
