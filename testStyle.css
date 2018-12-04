@@ -1,0 +1,172 @@
+body {
+    background-color: linen;
+}
+.dialogue {
+    position: relative;
+    line-height: 0px;
+    top: 20%;
+    text-align: center;
+}
+#first {
+    font-size: 50px;
+    opacity: 0;
+    -webkit-animation: myanim 5s ease 1s forwards;
+}
+@-webkit-keyframes myanim {
+    0% {
+      opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+  100% {
+    opacity: 0;
+  }
+  }
+
+  #second {
+    font-size: 50px;
+    opacity: 0;
+    -webkit-animation: myanim2 10s ease 1s forwards;
+}
+@-webkit-keyframes myanim2 {
+    51% {
+        opacity: 0;
+    }
+    52% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
+
+  #third {
+    font-size: 50px;
+    opacity: 0;
+    -webkit-animation: myanim3 15s ease 1s forwards;
+}
+@-webkit-keyframes myanim3 {
+    62% {
+        opacity: 0;
+    }
+    63% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#instructions {
+    font-size: 50px;
+    opacity: 0;
+    -webkit-animation: myanim4 20s ease 1s forwards;
+}
+@-webkit-keyframes myanim4 {
+    76% {
+        opacity: 0;
+    }
+    77% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#instructions2 {
+    font-size: 50px;
+    opacity: 0;
+    -webkit-animation: myanim5 25s ease 1s forwards;
+}
+@-webkit-keyframes myanim5 {
+    81% {
+        opacity: 0;
+    }
+    82% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#instructions3 {
+    font-size: 50px;
+    opacity: 0;
+    -webkit-animation: myanim6 30s ease 1s forwards;
+}
+@-webkit-keyframes myanim6 {
+    84% {
+        opacity: 0;
+    }
+    85% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#finalInstructions {
+    opacity: 0;
+    font-size: 50px;
+    -webkit-animation: myanim7 87s ease 1s forwards;
+}
+@-webkit-keyframes myanim7 {
+    88% {
+        opacity: 0;
+    }
+    89% {
+        opacity: 1;
+    }
+    94% {
+        opacity: 0;
+    }
+}
+#pic {
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+#pic1 {
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+#pic2 {
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+#set1pic1 {
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    height: 350px;
+    width: 350px;
+}
+
+#set1pic2 {
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    height: 350px;
+    width: 350px;
+}
+
+#set1pic3 {
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    height: 350px;
+    width: 350px;
+}
+
+#set1pic4 {
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    height: 350px;
+    width: 350px;
+}
